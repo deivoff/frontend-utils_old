@@ -1,3 +1,4 @@
+#!/usr/bin/env_node
 import { promises as fs } from 'fs'
 import { join } from 'path'
 import { toFileName, toFilePath, toQueryName } from './api-apollo'

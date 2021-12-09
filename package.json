@@ -1,6 +1,6 @@
 {
   "name": "@deivoff/frontend-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A little utils for my frontend-projects",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/deivoff/frontend-utils/issues"
   },
+  "bin": "lib/cli.js",
   "files": ["lib/**/*"],
   "homepage": "https://github.com/deivoff/frontend-utils#readme",
   "devDependencies": {
