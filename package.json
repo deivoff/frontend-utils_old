@@ -1,6 +1,6 @@
 {
   "name": "@deivoff/frontend-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little utils for my frontend-projects",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
