@@ -1,10 +1,14 @@
 {
   "name": "@deivoff/frontend-utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A little utils for my frontend-projects",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,21 @@
   "bugs": {
     "url": "https://github.com/deivoff/frontend-utils/issues"
   },
-  "homepage": "https://github.com/deivoff/frontend-utils#readme"
+  "files": ["lib/**/*"],
+  "homepage": "https://github.com/deivoff/frontend-utils#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
